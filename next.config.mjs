@@ -13,6 +13,8 @@ const nextConfig = {
       },
     ],
   },
+  // Suppress hydration warning for dark mode
+  reactStrictMode: true,
 };
 
 export default nextConfig;
